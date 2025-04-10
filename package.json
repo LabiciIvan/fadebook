@@ -9,11 +9,12 @@
     "build": "tsc -b && vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "deploy": "gh-pages -d dist --repo=https://github.com/LabiciIvan/fadebook",
+    "deploy": "gh-pages -d dist --repo=https://github.com/LabiciIvan/fadebook.git",
     "test": "vitest"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.0.17",
+    "bootstrap-icons": "^1.11.3",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-router": "^6.30.0",
